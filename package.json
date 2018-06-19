@@ -1,0 +1,39 @@
+{
+  "name": "@stringstack/base",
+  "description": "StringStack/base is a boiler plate for creating new StringStack components.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BlueRival/stringstack-base.git"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "async": "2.6.1",
+    "doublescore": "0.3.7"
+  },
+  "devDependencies": {
+    "@stringstack/core": "^0.1.2",
+    "mocha": "^5.2.0"
+  },
+  "keywords": [
+    "app",
+    "framework",
+    "base"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/BlueRival/stringstack-base/issues"
+  },
+  "homepage": "https://github.com/BlueRival/stringstack-base#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Your Name <your@email.com>"
+}
