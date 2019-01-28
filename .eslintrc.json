@@ -9,6 +9,9 @@
     "ecmaVersion": 2015,
     "sourceType": "script"
   },
+  "globals": {
+    "localRequire": true
+  },
   "rules": {
     "curly": "error",
     "strict": [
@@ -35,9 +38,12 @@
     "dot-location": [ "error", "property" ],
     "indent": [
       "error",
-      2
+      2,
+      {
+        "SwitchCase": 1
+      }
     ],
-    "dot-notation": [ "error", { "allowKeywords": false } ],
+    "dot-notation": [ "error", { "allowKeywords": true } ],
     "linebreak-style": [
       "error",
       "unix"
