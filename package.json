@@ -1,7 +1,7 @@
 {
   "name": "@stringstack/base",
   "description": "StringStack/base is a boiler plate for creating new StringStack components.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/StringStack/stringstack-base.git"

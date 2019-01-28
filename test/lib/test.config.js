@@ -16,12 +16,14 @@ class SetupTestConfigComponent {
 
   init( done ) {
 
+    // NO-OP
     done();
 
   }
 
   dinit( done ) {
 
+    // NO-OP
     done();
 
   }
